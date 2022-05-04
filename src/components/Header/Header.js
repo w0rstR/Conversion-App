@@ -15,9 +15,9 @@ export default function Header(){
 
 
     return(
-        <div>
+        <div className={s.container}>
             { firstRate ? (
-                <div className={s.container}>
+                <div>
                     <div className={s.value}>
                         USD: {firstRate.buy.slice(0,5)} | {firstRate.sale.slice(0,5)}
 
