@@ -1,0 +1,47 @@
+.wrap{
+    box-shadow: 0 2px 20px #ced0d9;
+    padding: 20px;
+    width: 800px;
+    height: 500px;
+    background-color: #dfe1ea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount{
+    font-size: 36px;
+    padding-top: 20px;
+}
+.select{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.inputBlock{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btn{
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 10px 30px 10px 30px;
+}
+.input{
+    padding: 5px;
+    font-size: 20px;
+}
